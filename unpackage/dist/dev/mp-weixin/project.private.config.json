@@ -4,5 +4,25 @@
   "setting": {
     "compileHotReLoad": false,
     "bigPackageSizeSupport": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/cate/cate",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/good_list/good_list",
+          "query": "cid=99",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
