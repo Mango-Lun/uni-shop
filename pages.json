@@ -40,20 +40,28 @@
         "pages": [{
                     "path" : "good_detail/good_detail",
                     "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
+                    {
+                      "navigationBarTitleText": "",
+                      "enablePullDownRefresh": false
+                    }
                 }
                 ,{
                     "path" : "good_list/good_list",
                     "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
+                    {
+                      "onReachBottomDistance": 150,
+                      "navigationBarTitleText": "",
+                      "enablePullDownRefresh": true,
+                      "backgroundColor": "#F8F8F8"
+                    }
                 }
-                
+                ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                    {
+                      "navigationBarTitleText": "",
+                      "enablePullDownRefresh": false
+                    }
                 }
             ]
       }
